@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Data (IMPORTANT for CFPB dataset)
+data/raw/
+data/processed/
+
+# Vector stores (can be huge)
+vector_store/
+embeddings/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
